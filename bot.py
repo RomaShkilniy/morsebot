@@ -1,7 +1,5 @@
 import telebot
-import os
 
-port = int(os.environ.get("PORT", 5000))
 bot = telebot.TeleBot("1471097679:AAHuNsYwmUHUt2Qrk4hZ1ioD-uExIfL3whc")
 
 char_to_dots = {
