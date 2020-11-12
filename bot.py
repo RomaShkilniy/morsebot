@@ -1,6 +1,7 @@
 import telebot
+import config
 
-bot = telebot.TeleBot("1471097679:AAHuNsYwmUHUt2Qrk4hZ1ioD-uExIfL3whc")
+bot = telebot.TeleBot(config.token)
 
 char_to_dots = {
 	'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.',
